@@ -1,0 +1,41 @@
+.logo-image {
+    max-height: 30px;
+}
+
+.logo-text {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#logo-block {
+   display: flex;
+   align-items: center; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#nav-block ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: 0px 10px;
+}
+
